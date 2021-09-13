@@ -10,3 +10,29 @@
 *{
     font-family: 'Red Hat Text', sans-serif;
 }
+
+body{
+    text-align: center;
+    margin:0;
+}
+
+/* Footer */
+
+.footer{
+    background-image: url('images/pattern-hills.svg');
+    margin-top:3%;
+    height:150px;
+    width:100%;
+    text-align:center;
+    position:relative;
+}
+
+/* Social Media */
+.social{
+    position:relative;
+    top:85px;
+}
+
+.social-logo{
+    padding:0 20px 0 20px;
+}
