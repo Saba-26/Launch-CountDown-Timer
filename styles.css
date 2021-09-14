@@ -23,6 +23,11 @@ body{
 .main-heading{
     margin-top:10em;
 }
+
+.card{
+    display: inline-block;
+    margin: 2%;
+  }
 /* Footer */
 
 .footer{
