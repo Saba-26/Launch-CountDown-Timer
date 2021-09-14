@@ -11,10 +11,15 @@
     font-family: 'Red Hat Text', sans-serif;
 }
 
+.stars-bg{
+     background-image: url('images/bg-stars.svg');
+}
+
 body{
     text-align: center;
     margin:0;
 }
+
 
 /* Footer */
 
