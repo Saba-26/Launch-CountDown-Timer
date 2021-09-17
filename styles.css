@@ -56,7 +56,7 @@ h2,h1{
 
 .footer{
     background-image: url('images/pattern-hills.svg');
-    margin-top:3%;
+    margin-top:5%;
     height:150px;
     width:100%;
     text-align:center;
@@ -71,4 +71,8 @@ h2,h1{
 
 .social-logo{
     padding:0 20px 0 20px;
+}
+
+.attribution{
+    color:whitesmoke;
 }
