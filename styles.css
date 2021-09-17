@@ -7,7 +7,11 @@
     --Very-dark-blue-black: hsl(234, 17%, 12%);
 }
 
-*{
+#main{
+    height: 20px;
+    margin-top: 10px;
+    animation: kf-color-mix 1s -.1s linear forwards paused;
+    background: currentColor;
     font-family: 'Red Hat Text', sans-serif;
 }
 
@@ -20,6 +24,9 @@ body{
     margin:0;
 }
 
+h2,h1{
+    color:whitesmoke;
+}
 .main-heading{
     margin-top:10em;
 }
@@ -28,6 +35,23 @@ body{
     display: inline-block;
     margin: 2%;
   }
+
+.day-box,.hour-box,.minute-box,.second-box{
+      width:140px;
+      height:140px;
+      background-color: var(--Very-dark-blue-black);
+      border-radius: 10px;
+}
+
+.days,.hours,.minutes,.seconds{
+    color:var(--Soft-red);
+    text-align:center;
+    font-size:95px;
+    margin:0;
+    padding-top:10px;
+}
+
+
 /* Footer */
 
 .footer{

@@ -15,14 +15,14 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+<body id="main">
   <div class="stars-bg">
     <div class="main-heading">
-      <h3>WE'RE LAUNCHING SOON</h3>
+      <h1>WE'RE LAUNCHING SOON</h1>
     </div>
     <div class="time">
       <div class="card">
-        <div class="day">
+        <div class="day-box">
           <h1 class="days"></h1>
         </div>
         <h2>Days</h2>
@@ -30,21 +30,21 @@
 
 
       <div class="card">
-        <div class="hour">
+        <div class="hour-box">
           <h1 class="hours"></h1>
         </div>
         <h2>Hours</h2>
       </div>
 
       <div class="card">
-        <div class="minute-card">
+        <div class="minute-box">
           <h1 class="minutes"></h1>
         </div>
         <h2>Minutes</h2>
       </div>
 
       <div class="card">
-        <div class="second-card">
+        <div class="second-box">
           <h1 class="seconds"></h1>
         </div>
         <h2>Seconds</h2>
@@ -59,18 +59,8 @@
       </div>
     </div>
 
-    <script>
-      window.setInterval(function()){
-        var current_date=new Date();
-        var Date=new Date(2021,4,10);
+  <script src="myScript1.js"></script>
 
-        var time=Math.floor((date-current_date)/1000);
-
-        console.log(time);
-      
-        var seconds=time%60;
-      }
-    </script>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
